@@ -1,0 +1,95 @@
+﻿@charset "utf-8"; 
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	line-height: 1.8;
+	font-family:"Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ"," sans-serif";;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+.wrap {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.topimage {
+	margin-bottom: 20px;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+#shosinn {
+		background-image: url(img/drsato.jpg);
+		background-repeat: no-repeat;
+		background-position: right bottom;
+		background-size: contain;
+}
+
+h2 {
+	text-align: center;
+	margin: 50px 0;
+	font-size: 30px;
+}
+
+.text {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.tejyunn {
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.map {
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.address {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.chart {
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+
+/* フッター */
+
+.footer {
+	text-align: center;
+	padding: 30px 0;
+	background-color: #f9ed58;
+	color: #fff;
+	font-size: 13px;
+}
+
+.modoru {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+}
+
+
+
+.chuui {
+	text-align: center;
+	border: solid 5px #808080;
+	padding: 20px;
+	margin: 50px auto;
+	width: 550px;
+	font-size: 12px;
+}
