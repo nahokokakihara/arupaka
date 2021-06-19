@@ -79,8 +79,6 @@ h3 {
 	bottom: 20px;
 }
 
-
-
 .chuui {
 	text-align: center;
 	border: solid 5px #808080;
@@ -109,11 +107,7 @@ h3 {
 
 	.kannjyasama_img {
 		width: 50%;
-		margin: auto;
-	}
-
-	.chuui {
-		width: 90%;
+		margin: 0 auto 20px auto;
 	}
 
 }
@@ -149,6 +143,10 @@ h3 {
 	
 	.answer {
 		margin: 0 30px;
+	}
+	
+	.chuui {
+		width: 80px;
 	}
 	
 

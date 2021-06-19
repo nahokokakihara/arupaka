@@ -140,12 +140,24 @@ h2 {
 		margin: 40px 0;
 	}
 
+	.text {
+		padding: 0 30px;
+	}
+
 	iframe {
 		width: 80%;
 	}
 
+	.map p {
+		padding: 0 30px;
+	}
+
 	.chart img {
 		width: 90%;
+	}
+
+	.chuui {
+		width: 80%;
 	}
 
 }
