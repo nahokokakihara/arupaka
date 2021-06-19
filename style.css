@@ -35,6 +35,10 @@ img {
 		background-size: contain;
 }
 
+.rgba {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
 h2 {
 	text-align: center;
 	margin: 50px 0;
@@ -128,12 +132,20 @@ h2 {
 @media screen and (max-width: 599px){
 
 	.wrap {
-		width: 90%;
+		width: 100%;
 	}
 
 	h2 {
 		font-size: 25px;
 		margin: 40px 0;
+	}
+
+	iframe {
+		width: 80%;
+	}
+
+	.chart img {
+		width: 90%;
 	}
 
 }
