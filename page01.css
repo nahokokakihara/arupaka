@@ -110,6 +110,10 @@ h3 {
 		margin: 0 auto 20px auto;
 	}
 
+	.chuui {
+		width: 80%;
+	}
+
 }
 
 
@@ -144,10 +148,5 @@ h3 {
 	.answer {
 		margin: 0 30px;
 	}
-	
-	.chuui {
-		width: 80%;
-	}
-	
 
 }
