@@ -89,3 +89,67 @@ h3 {
 	width: 550px;
 	font-size: 12px;
 }
+
+
+
+
+/*------------------------------
+        ここからタブレット
+------------------------------*/
+
+@media screen and (max-width: 1024px){
+
+	img {
+		width: 100%;
+	}
+
+	.wrap {
+		width: 600px;
+	}
+
+	.kannjyasama_img {
+		width: 50%;
+		margin: auto;
+	}
+
+	.chuui {
+		width: 90%;
+	}
+
+}
+
+
+
+
+
+
+/*------------------------------
+        ここからスマホ
+------------------------------*/
+
+@media screen and (max-width: 599px){
+
+	.wrap {
+		width: 90%;
+	}
+
+	h2 {
+		font-size: 25px;
+		margin-top:;
+	}
+
+	.kannjyasama_img {
+		margin-top: 20px;
+	}
+
+	h3 {
+		text-align: center;
+		margin-left: 0;
+	}
+	
+	.answer {
+		margin: 0 30px;
+	}
+	
+
+}

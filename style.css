@@ -93,3 +93,47 @@ h2 {
 	width: 550px;
 	font-size: 12px;
 }
+
+
+
+/*------------------------------
+        ここからタブレット
+------------------------------*/
+
+@media screen and (max-width: 1024px){
+
+	img {
+		width: 100%;
+	}
+
+	.wrap {
+		width: 600px;
+	}
+
+	.chuui {
+		width: 90%;
+	}
+
+}
+
+
+
+
+
+
+/*------------------------------
+        ここからスマホ
+------------------------------*/
+
+@media screen and (max-width: 599px){
+
+	.wrap {
+		width: 90%;
+	}
+
+	h2 {
+		font-size: 25px;
+		margin: 40px 0;
+	}
+
+}
